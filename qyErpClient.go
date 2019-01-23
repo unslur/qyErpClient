@@ -299,7 +299,6 @@ func syncUserToMallHandler() bool {
 	for _, ele := range userListOther {
 		userList = append(userList, ele)
 	}
-
 	ToURL := fmt.Sprintf("http://%s:%d/multiGo/customer/save", app.Rs.IP, app.Rs.Port)
 	for index, ele := range userList {
 		flag := true
