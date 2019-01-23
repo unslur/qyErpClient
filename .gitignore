@@ -1,0 +1,8 @@
+
+*.exe
+*.log
+*.zip
+log/*
+debug
+qyErpClient
+qyErpClient.debug
