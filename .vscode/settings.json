@@ -1,0 +1,17 @@
+{
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "file",
+    "go.vetOnSave": "package",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.formatTool": "goreturns",
+    "go.toolsEnvVars": {
+        "GOEDIT": "cyy"
+    },
+    "editor.formatOnSave": true,
+    "go.testFlags": [
+        "-v"
+    ]
+}

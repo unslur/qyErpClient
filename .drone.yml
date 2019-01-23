@@ -1,0 +1,10 @@
+workspace:
+  base: /go
+  path: src/cyprivate/qyErpClient
+
+pipeline:
+  build:
+    image: golang:1.11
+    commands:
+      - go test
+      - go build 

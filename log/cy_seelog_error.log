@@ -1,0 +1,62 @@
+[41m2018-11-29 11:29:31 [qyErpClient.go.72] ERR 连接商城数据库错误：Error 1049: Unknown database 'qy'
+[0m[41m2018-11-29 11:51:46 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:47 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:48 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:49 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:50 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:51 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:52 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:53 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:54 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:51:55 [qyErpClient.go.135] ERR Post http://127.0.0.1:15554/multiGo/customer/save: dial tcp 127.0.0.1:15554: connectex: No connection could be made because the target machine actively refused it.
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 11:52:10 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_registersource of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:14:49 [qyErpClient.go.155] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-11-29 14:18:53 [qyErpClient.go.156] ERR json: cannot unmarshal number into Go struct field QyUser.user_audit_state of type main.JSONNullInt64
+[0m[41m2018-12-07 16:34:30 [qyErpClient.go.148] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (user_health_logo<>'images/user_health_logo.png'  and length(user_health_log' at line 9
+[0m[41m2018-12-07 16:36:22 [qyErpClient.go.148] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (user_health_logo!='images/user_health_logo.png'  and length(user_health_log' at line 9
+[0m[41m2018-12-07 16:38:14 [qyErpClient.go.164] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null and length(user_business_logo_url)>10 
+	and  user_food_logo_url not null  a' at line 9
+[0m[41m2018-12-07 16:39:19 [qyErpClient.go.164] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null and length(user_business_logo_url)>10 
+	and  user_food_logo_url not null  a' at line 9
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-07 16:56:27 [qyErpClient.go.209] ERR Error 1103: Incorrect table name ''
+[0m[41m2018-12-24 10:41:54 [qyErpClient.go.198] ERR listen: listen tcp :15559: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+[0m[41m2018-12-24 10:41:54 [qyErpClient.go.281] ERR Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 10' at line 3
+[0m[41m2018-12-24 10:42:57 [qyErpClient.go.198] ERR listen: listen tcp :15559: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+[0m

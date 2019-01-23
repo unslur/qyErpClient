@@ -1,0 +1,56 @@
+<seelog type="sync">
+	<outputs formatid="info">
+		<console/>
+		<filter levels="info" formatid = "info">
+	            <buffered size="100">
+				<rollingfile type="date" filename="./log/cy_seelog.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+        	</filter>
+			
+		<filter levels="debug" formatid = "debug">		
+            		<buffered size="100">
+				<rollingfile  type="date" filename="./log/cy_seelog_debug.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+			
+            </filter>
+			<filter levels="trace" >		
+            		<buffered size="100">
+				<rollingfile  type="date" filename="./log/cy_seelog_debug.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+			
+            </filter>
+			<filter levels="info" formatid = "info">		
+            		<buffered size="100">
+				<rollingfile  type="date" filename="./log/cy_seelog_debug.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+			
+            </filter>
+			<filter levels="error,trace" formatid = "error">		
+            		<buffered size="100">
+				<rollingfile  type="date" filename="./log/cy_seelog_debug.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+			
+            </filter>
+		<filter levels="error,trace,warn,trace" formatid = "error">
+            		<buffered size="100">
+				<rollingfile type="date" filename="./log/cy_seelog_error.log" datepattern="2006.01.02" maxrolls="30"/>
+			</buffered>
+            </filter>
+			
+		<filter levels="critical">
+            <file path="./critical.log" formatid="critical"/>	
+			<smtp formatid="criticalemail" senderaddress="chenyang@sckync.com" sendername="监控系统警报" hostname="smtp.exmail.qq.com" hostport="25" username="chenyang@sckync.com" password="vDiH6tLYa7ocottt">
+                		<recipient address="cyylogo@163.com"/>
+            		</smtp>		
+		</filter>		
+	</outputs>
+	<formats>
+        	<format id="main" format="%Msg%n"/>
+		<format id="info" format="%EscM(39)%Date(2006-01-02 15:04:05) [%File.%Line] %LEV %Msg%n%EscM(0)"/>
+		<format id="error" format="%EscM(41)%Date(2006-01-02 15:04:05) [%File.%Line] %LEV %Msg%n%EscM(0)"/>
+		<format id="debug" format="%EscM(42)%Date(2006-01-02 15:04:05) [%File.%Line] %LEV %Msg%n%EscM(0)"/>
+		<format id="critical" format="%Date(2006-01-02 15:04:05) File %FullPath %Func %Msg%n" />
+		<format id="criticalemail" format="Critical error on our server!\n    %Time %Date %RelFile %Func %Msg"/>
+    </formats>
+</seelog>
+
