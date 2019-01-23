@@ -249,7 +249,7 @@ func syncUserToMall() {
 	}
 }
 
-// syncUserToMallHandler 同步用户进程
+// syncUserToMallHandler 同步用户gen进程
 func syncUserToMallHandler() bool {
 	txQy := app.Qy.DB.Begin()
 	defer func() {
