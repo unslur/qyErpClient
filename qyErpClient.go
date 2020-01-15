@@ -65,7 +65,7 @@ func main() {
 
 	cylog, err = seelog.LoggerFromConfigAsFile(SeelogConfigPath)
 	if err != nil {
-		fmt.Println("读取 seelog.xml 日志配置文件错误,请确定格式:", err.Error())
+		fmt.Println("读取 seelog.xml日志配置文件错误,请确定格式:", err.Error())
 		return
 	}
 
